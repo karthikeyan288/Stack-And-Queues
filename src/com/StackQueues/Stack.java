@@ -26,6 +26,12 @@ public class Stack {
 		return data;
 	}
 	
+	public int peek() {
+		int data = 0;
+		data = stack[top - 1];
+		return data;
+	}
+	
 	public int size() {
 		return top;
 	}
