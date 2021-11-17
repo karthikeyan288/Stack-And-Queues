@@ -19,6 +19,10 @@ public class Main {
 		stack.pop();
 		stack.pop();
 
+
+		stack.pop();
+
+
 		stack.print();
 
 	}
